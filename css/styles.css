@@ -15,8 +15,6 @@ body {
 .list {
     list-style: none;
 }
-/* Колір футера Лого #2196F3 #FFFFFF тф і пошта rgba(255, 255, 255, 0.6)*/
-/* колір фона Наша Команда #F5F4FA #FFFFFF*/
 
 /* Шапка сайту */
 .logo, .logo-part:hover {
@@ -66,7 +64,10 @@ body {
 .features .title {
     color: var(--title-text-color);
 }
+
 /* Чим ми займаємось */
+/*  .section {}
+    .section .list {} */
 
 /* Наша команда */
 .team {
@@ -79,6 +80,50 @@ body {
 
 .workers .title {
     color: var(--title-text-color);
+}
+
+/* Проекти */
+.projects .title {
+    color: var(--title-text-color);
+}
+
+/* Фільтри */
+.filters .filters-button {
+    color: var(--title-text-color);
+}
+
+.filters .filters-button.current {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+.filters .filters-button:hover,
+.filters .filters-button:focus {
+   color: var(--accent-color); 
+}
+
+/* Види проектів */
+.projects-item {
+
+}
+
+.projects-link {
+
+}
+
+.projects-item .projects-name {
+    color: var(--title-text-color);
+}
+
+.projects-item .projects-type {
+    color: var(--primary-text-color);
+}
+
+.projects-item .projects-name:hover,
+.projects-item .projects-name:focus,
+.projects-item .projects-type:hover,
+.projects-item .projects-type:focus {
+color: var(--accent-color);
 }
 
 /* Футер сайту */
@@ -94,7 +139,7 @@ body {
     color: var(--white-text-color)
 }
 
-.address:focus {
+.address:hover, .address:focus {
     color: var(--accent-color);
 }
 
