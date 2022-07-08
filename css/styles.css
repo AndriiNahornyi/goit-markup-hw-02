@@ -1,0 +1,80 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196f3;
+--primari-bg-color: #ffffff;
+}
+
+body {
+    background-color: var(--primari-bg-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+/* Колір шапки навігація #212121 активна #2196F3 */
+/* Колір тф #757575 колір пошти #2196F3 ? */
+/* Колір тексту основного блоку #FFFFFF */
+/* Колір футера Лого #2196F3 #FFFFFF тф і пошта rgba(255, 255, 255, 0.6)*/
+/* колір фона Наша Команда #F5F4FA #FFFFFF*/
+/* колір фона основного блока і футера #2F303A */
+/* колір фона шапки #FFFFFF */
+
+/* Шапка сайту */
+.logo, .logo-part:hover {
+    color: var(--accent-color);
+}
+
+.logo-part {
+    color: #000000; 
+}
+
+/* Навігація сайту */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Контакти */
+.contacts {
+    color: var(--primary-text-color);
+}
+
+/* Герой */
+.hero {
+    background-color: #2F303A;
+    color:var(--primari-bg-color);
+    }
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--primari-bg-color);
+}
+
+/* Секції */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Особливості */
+.features .title {
+    color: var(--title-text-color);
+}
+/* Чим ми займаємось */
+
+/* Наша команда */
+.team {
+    background-color: #F5F4FA;
+}
+
+.workers {
+    background-color: var(--primari-bg-color);
+}
+
+.workers .title {
+color: var(--title-text-color);
+}
