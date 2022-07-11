@@ -35,10 +35,10 @@ body {
     color: var(--accent-color);
 }
 
-/* .logo:hover, .logo:focus, 
-.logo-part:hover, .logo-part:focus {  
-color: var(--accent-color);
-} */
+.logo-part:hover {
+    --accent-color: var(--accent-color);
+    color: var(--accent-color);
+}
 
 /* Навігація сайту */
 .site-nav .link {
@@ -95,7 +95,6 @@ color: var(--accent-color);
 }
 
 /* Секції */
-/* .section {} */
 .section-title {
     color: var(--title-text-color);
     font-size: 36px;
@@ -110,8 +109,6 @@ color: var(--accent-color);
     line-height: 1.14;
     text-transform: uppercase;
 }
-
-/* .features-item {} */
 
 /* Чим ми займаємось */
 /* .works-section {} */
@@ -134,6 +131,7 @@ color: var(--accent-color);
     text-align: center;
 }
 
+/* Сторінка Портфоліо */
 /* Проекти */
 .projects .title {
     color: var(--title-text-color);
@@ -157,7 +155,6 @@ color: var(--accent-color);
     cursor: pointer;
 }
 
-.filters-button.current, 
 .filters-button:focus, 
 .filters-button:hover {
     background-color: var(--accent-color);
@@ -183,11 +180,6 @@ color: var(--accent-color);
     text-decoration: none;
 }
 
-/* .projects-name:hover, .projects-type:hover, */
-.projects-name:focus, .projects-type:focus {
-    color: var(--accent-color);
-}
-
 /* Футер сайту */
 .footer-section {
     background-color: var(--hero-footer-bg-color);
@@ -197,10 +189,9 @@ color: var(--accent-color);
     color: var(--white-text-color);
 }
 
-/* .footer-section .logo-part:hover,  
-.footer-section .logo-part:focus { 
+.footer-section .logo-part:hover { 
     color: var(--accent-color);
-} */
+}
 
 .legal-address {
     color: var(--white-text-color);
@@ -213,7 +204,7 @@ color: var(--accent-color);
     text-decoration: none;
 }
 
-.legal-address:hover, .legal-address:focus,
+.legal-address:hover, .legal-address:focus, 
 .footer-contacts .contacts-item:hover, 
 .footer-contacts .contacts-item:focus {
     color: var(--accent-color);
